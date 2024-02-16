@@ -1,0 +1,22 @@
+.container {
+  max-width: 100dvw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--Light-grayish-blue);
+  padding: 2em 15%;
+}
+
+@media (max-width: 1600px) {
+  .container {
+    padding: 0em 2em;
+  }
+}
+
+@media (max-width: 1200px) {
+  .container {
+    height: auto;
+    padding: 2em;
+  }
+}
